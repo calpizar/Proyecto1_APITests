@@ -1,12 +1,13 @@
 package model;
 
-public class Article {
-    private String title;
-    private String Content;
+public class Post {
 
-    public Article(String title, String content) {
+    private String title;
+    private String content;
+
+    public Post(String title, String content) {
         this.title = title;
-        Content = content;
+        this.content = content;
     }
 
     public String getTitle() {
@@ -14,7 +15,7 @@ public class Article {
     }
 
     public String getContent() {
-        return Content;
+        return content;
     }
 
     public void setTitle(String title) {
@@ -22,7 +23,8 @@ public class Article {
     }
 
     public void setContent(String content) {
-        Content = content;
+        this.content = content;
     }
+
 
 }
